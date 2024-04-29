@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 1800px;
+   
+}
+
+@media only screen and (max-width:1720px) {
+    .main {
+        width: 100%;
+    }
+}
+
+.nav {
+    width: 95%;
+    display: flex;
+    padding-top: 50px;
+    margin: auto;
+}
+
+
+.logo {
+    width: 20%;
+    margin: auto;
+}
+
+.menu {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+}
+
+.menu a:hover {
+    background-color: palevioletred;
+}
+
+.button {
+    width: 120px;
+    height: 44.93px;
+    border-radius: 10px;
+    border: 2px solid rgb(230, 67, 94);
+    padding: 12px 12px;
+    margin: auto;
+    flex-shrink: shrink 1;
+}
+
+.button a {
+    text-decoration: none;
+    color: palevioletred;
+}
+
+@media only screen and (max-width:1720px) {
+    .nav {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width:650px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin: auto;
+    }
+
+    .menu {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .menu a {
+        padding: 1em;
+    }
+
+    .button {
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+}
+
+
+.section1 {
+    width: 90%;
+    max-height: 750px;
+    margin: auto;
+    border-radius: 12px;
+    background-image: url(assests/images/hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10% 0px;
+}
+
+.section1 h1 {
+    width: 40%;
+    color: white;
+    font-size: 50px;
+    margin-left: 10%;
+    padding-top: 10%;
+    text-transform: capitalize;
+}
+
+.sec1-h1 {
+    color: palevioletred;
+}
+
+.section1 p {
+    width: 40%;
+    color: white;
+    font-size: 22px;
+    margin-left: 10%;
+    padding-top: 5%;
+    text-transform: capitalize;
+}
+
+.button1 {
+    width: 220px;
+    min-height: 55px;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 10px 48px;
+    flex-shrink: shrink 1;
+    background-color: palevioletred;
+    font-size: 25px;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.button1 a {
+    text-decoration: none;
+    color: white
+}
+
+@media only screen and (max-width:1720px){.section1{margin-top: 2%;}}
+
+@media only screen and (max-width:650px) {
+    .section1 {
+        height: 600px;
+        margin-bottom: 50px;
+        padding: 1%;
+    }
+
+    .section1 h1 {
+        width: 90%;
+        margin: auto;
+        font-size: 35px;
+    }
+
+    .section1 p {
+        width: 90%;
+        margin: auto;
+        font-size: 20px;
+    }
+
+    .button1 {
+        width: 50%;
+        height: fit-content;
+        margin: auto;
+        margin-top: 10%;
+        padding: 10px 18px;
+    }
+}
+
